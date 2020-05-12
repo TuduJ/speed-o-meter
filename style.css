@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+}
+#speedometer{
+  height:200px;
+  width:400px;
+}
+.wrap{
+  position:absolute;
+  top:210px;
+  left:50px;
+}
+.minVal{
+  position:absolute;
+  top:165px;
+  left:75px;
+}
+.fifty{
+  position: absolute;
+  top: 90px;
+  left: 110px;
+}
+.midVal{
+  position: absolute;
+  top: 55px;
+  left: 187px;
+}
+.oneFifty{
+  position: absolute;
+  top: 90px;
+  left: 270px;
+}
+.maxVal{
+  position:absolute;
+  top:165px;
+  left:300px;
+}

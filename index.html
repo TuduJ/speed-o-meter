@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Speedometer, Velocimeter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="center">
+    <canvas id="speedometer"></canvas>
+    <div class="minVal">0</div>
+    <div class="fifty">50</div>
+    <div class="midVal">100</div>
+    <div class="oneFifty">150</div>
+    <div class="maxVal">200</div>
+    <div class="wrap">
+      <button onclick="setVal()">Set Value</button>
+      <input type="text" id="speedInput">
+    </div>
+  </div>
+
+
+  <script src='gauge.min.js'>
+  </script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
